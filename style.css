@@ -1,0 +1,99 @@
+/* Global Styling Properties */
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* For all a tags */
+a {
+    text-decoration: none;
+}
+
+/* For all buttons */
+button {
+    background-color: #008aff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+/* For all buttons(on hover) */
+button:hover {
+    background-color: #1f42c2;
+}
+
+.main-menu {
+    /* background-color: rgb(255, 255, 255); */
+    padding: 1.5vw;
+    text-align: right;
+    font-size: 1.2vw;
+    font-weight: bold;
+    position: sticky;
+    /* box-shadow: 0 0 0.4vw 0 #000000; */
+}
+
+.main-menu a {
+    padding: 0.8vw;
+    color: #008aff;
+}
+
+.main-menu a:hover {
+    color: black;
+}
+
+/* Doubt */
+#logo {
+    float: left;
+    width: 10%;
+    height: auto;
+}
+
+#login {
+    border-radius: 1vw;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    padding: 0.4vw 0.8vw;
+}
+
+body {
+    background-image: url("images/backgroundImage.png");
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0vw;
+}
+
+#section-1 {
+    vertical-align: middle;
+}
+
+#one-place {
+    font-size: 4.5vw;
+    margin: 7vw 0 0 3vw;
+    line-height: 0.5;
+}
+
+#to-get {
+    font-size: 8vw;
+    margin: 0 0 0.8vw 3vw;
+}
+
+.areas-section-1 {
+    color: #008aff;
+    font-size: 4.5vw;
+    margin: 0 0 0 3vw;
+    line-height: 1;
+    width: fit-content;
+}
+
+#get-started {
+    padding: 0.3vw 3vw;
+    font-size: 2.4vw;
+    border-radius: 1.4vw;
+    margin: 4vw 0 0 3vw;
+}
+
+#img-section-1 {
+    height: 41vw;
+    float: right;
+}
