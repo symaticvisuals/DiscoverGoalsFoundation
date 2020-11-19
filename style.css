@@ -1,67 +1,178 @@
 /* Global Styling Properties */
 * {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* For all a tags */
 a {
     text-decoration: none;
+    
 }
 
 /* For all buttons */
 button {
-    background-color: #008aff;
+    background-color: #FFC727;
     color: white;
-    font-weight: bold;
     cursor: pointer;
     border: none;
+    font-size: 1vw;
+    margin-right: 1vw;
 }
 
 /* For all buttons(on hover) */
 button:hover {
-    background-color: #1f42c2;
+    background-color: #1b1b1b;
+    color: white;
+    
+}
+.mag-small{
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    right: 60%;
+    top: 25%;
+    z-index: 1;
+}
+.mag-small:hover{
+    width: 22%;
+    position: absolute;
+    left: 40%;
+    right: 60%;
+    top: 25%;
+    z-index: 1;
+}
+
+.lady-1{
+    width: 20%;
+    position: absolute;
+    left: 18%;
+    right: 82%;
+    top: 22.3%;
+    z-index: 1;
+}
+.lady-1:hover{
+    width: 22%;
+    position: absolute;
+    left: 18%;
+    right: 82%;
+    top: 18.5%;
+    z-index: 1;
+}
+
+.lady-2{
+    width: 17%;
+    position: absolute;
+    left: 63%;
+    right: 37%;
+    top: 23.2%;
+    z-index: 1;
+}
+.lady-2:hover{
+    width: 18%;
+    position: absolute;
+    left: 63%;
+    right: 37%;
+    top: 21%;
+    z-index: 1;
 }
 
 .main-menu {
     /* background-color: rgb(255, 255, 255); */
-    padding: 1.5vw;
+    width: 100%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0.4vw;
+    padding-bottom: 0.4vw;
     text-align: right;
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: bold;
-    position: sticky;
+    /* position: sticky; */
+    text-align: right;
     /* box-shadow: 0 0 0.4vw 0 #000000; */
+    float:right;
+    height: 2vw;
+   
 }
 
 .main-menu a {
-    padding: 0.8vw;
-    color: #008aff;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    color: #FFC727;
+    font-size: 1vw;
+    font-weight: bold;
+    
 }
 
 .main-menu a:hover {
     color: black;
+    font-weight: 1vw;
+    
 }
 
 /* Doubt */
-#logo {
-    float: left;
-    width: 10%;
-    height: auto;
-}
+
 
 #login {
     border-radius: 1vw;
-    font-size: 1.2vw;
-    font-weight: bolder;
+    font-size: 1 vw;
+    font-weight: bold;
     padding: 0.4vw 0.8vw;
 }
 
-body {
+/* body {
     background-image: url("images/backgroundImage.png");
     background-repeat: repeat;
-    background-size: contain;
+    background-size: 50%;
     background-position: center;
     margin: 0vw;
+} */
+
+.image-1{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
+
+.button-1{
+    margin: 0;
+  position: relative;
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 1.4vw;
+  padding-left: 6.6vw;
+  padding-right: 6.6vw;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
+  border-radius: 1.5vw;
+  font-weight: 700;
+  color: #1b1b1b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #section-1 {
     vertical-align: middle;
@@ -97,3 +208,4 @@ body {
     height: 41vw;
     float: right;
 }
+
