@@ -8,6 +8,9 @@ a {
     text-decoration: none;
     
 }
+body{
+    margin: 0vw;
+}
 
 /* For all buttons */
 button {
@@ -49,7 +52,7 @@ button:hover {
     position: absolute;
     left: 18%;
     right: 82%;
-    top: 11vw;
+    top: 10.8vw;
     z-index: 1;
     height: auto;
 }
@@ -58,7 +61,7 @@ button:hover {
     position: absolute;
     left: 18%;
     right: 82%;
-    top: 9.27vw;
+    top: 9.1vw;
     z-index: 1;
     height: auto;
 }
@@ -68,18 +71,18 @@ button:hover {
     position: absolute;
     left: 63%;
     right: 37%;
-    top: 23.2%;
+    top: 11.2vw;
     z-index: 1;
-    height: auto;
+   
 }
 .lady-2:hover{
     width: 18%;
     position: absolute;
     left: 63%;
     right: 37%;
-    top: 21%;
+    top: 10.27vw;
     z-index: 1;
-    height: auto;
+    
 }
 
 .main-menu {
@@ -143,14 +146,14 @@ button:hover {
     height: auto;
 }
 
-.button-1{
+.Button-1{
     margin: 0;
   position: relative;
   top: 80%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font-size: 1.4vw;
+  font-size: 20px;
   padding-left: 6.6vw;
   padding-right: 6.6vw;
   padding-top: 0.3vw;
@@ -160,6 +163,35 @@ button:hover {
   color: #1b1b1b;
 }
 
+.section-2{
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color:#F3F3F3;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+    flex-flow: column;
+    
+}
+
+#heading-1{
+  
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+.para-1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: #8B8B8B; 
+    flex-wrap: wrap;
+}
+    
 
 
 
