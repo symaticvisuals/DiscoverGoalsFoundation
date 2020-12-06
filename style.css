@@ -4,131 +4,99 @@
 }
 
 /* For all a tags */
-a {
-    text-decoration: none;
-    
-}
+
 body{
     margin: 0vw;
 }
 
 /* For all buttons */
-button {
-    background-color: #FFC727;
-    color: white;
-    cursor: pointer;
-    border: none;
-    font-size: 1vw;
-    margin-right: 1vw;
-}
 
 /* For all buttons(on hover) */
-button:hover {
-    background-color: #1b1b1b;
-    color: white;
-    
-}
-.mag-small{
-    width: 20%;
-    position: absolute;
-    left: 40%;
-    right: 60%;
-    top: 13vw;
-    z-index: 1;
-    height: auto;
-}
-.mag-small:hover{
-    width: 22%;
-    position: absolute;
-    left: 40%;
-    right: 60%;
-    top: 13vw;
-    z-index: 1;
-    height: auto;
+
+/* Navbar */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #ffffff; */
 }
 
-.lady-1{
-    width: 20%;
-    position: absolute;
-    left: 18%;
-    right: 82%;
-    top: 10.8vw;
-    z-index: 1;
-    height: auto;
-}
-.lady-1:hover{
-    width: 22%;
-    position: absolute;
-    left: 18%;
-    right: 82%;
-    top: 9.1vw;
-    z-index: 1;
-    height: auto;
+li, a , button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 650;
+    font-size: 14px;
+    color: rgb(0, 0, 0) ;
+    text-decoration: none;
 }
 
-.lady-2{
-    width: 17%;
-    position: absolute;
-    left: 63%;
-    right: 37%;
-    top: 11.2vw;
-    z-index: 1;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 2%;
    
 }
-.lady-2:hover{
-    width: 18%;
-    position: absolute;
-    left: 63%;
-    right: 37%;
-    top: 10.27vw;
-    z-index: 1;
-    
+.logo{
+    width: 200px;
+    cursor: pointer;
+
 }
 
-.main-menu {
-    /* background-color: rgb(255, 255, 255); */
-    width: 100%;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    padding-top: 0.4vw;
-    padding-bottom: 0.4vw;
-    text-align: right;
-    font-size: 1vw;
-    font-weight: bold;
-    /* position: sticky; */
-    text-align: right;
-    /* box-shadow: 0 0 0.4vw 0 #000000; */
-    float:right;
-    height: 2vw;
+.nav_links{
+    list-style: none;
+
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav_links li a:hover{
+    color:  #FFC727;
+}
+
+button{
+    padding: 9px 25px;
+    background-color:  #FFC727;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
    
 }
 
-.main-menu a {
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    color: #FFC727;
-    font-size: 1vw;
-    font-weight: bold;
+button:hover{
+    background-color: #eeae00; 
+     
     
 }
 
-.main-menu a:hover {
-    color: black;
-    font-weight: 1vw;
-    
-}
+/* Navbar */
+
+/* .mag-small{
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    right: 15vw;
+    top: 18%;
+    z-index: 1;
+    height: auto;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+} */
+/* .mag-small:hover{
+    width: 22%;
+    position: absolute;
+    left: 40%;
+    right: 15vw;
+    top: 14vw;
+    z-index: 1;
+    height: auto;
+} */
 
 /* Doubt */
-
-
-#login {
-    border-radius: 1vw;
-    font-size: 1 vw;
-    font-weight: bold;
-    padding: 0.4vw 0.8vw;
-}
 
 /* body {
     background-image: url("images/backgroundImage.png");
@@ -139,11 +107,11 @@ button:hover {
 } */
 
 .image-1{
-    width: 85%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    height: auto;
+    
 }
 
 .Button-1{
